@@ -1,0 +1,354 @@
+/* TASCA 1 -----------------------------------------------------------------------------------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#titleTasca1
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    color:blue;
+    border-radius: 2px; 
+}
+
+#divTasca1
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;   
+    width: 350px;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    border-color: greenyellow;
+}
+
+#divSpans
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    justify-content: center;
+    height: 170px;
+    width: 300px;
+}
+
+
+span
+{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    margin-left:12;
+    padding: 5px;
+    justify-self:center;
+    border-style:solid;
+    border-radius:5px;
+    font-weight: bold;
+    justify-content: center;
+    align-items:center;
+    font-size:xxx-large;   
+}
+
+.span123
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#span1
+{
+    background-color:red;
+}
+#span2
+{
+    background-color: blue;
+}
+#span3
+{
+    background-color:lime;
+}
+
+.span456
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+#span4
+{
+    background-color:darkorange;
+}
+#span5
+{
+    background-color:yellow;
+}
+#span6
+{
+    background-color: darkorchid;
+}
+
+.imatge
+{
+    display: flex;
+    justify-content: center;
+    justify-self: center;   
+    height: 330px;   
+    width: 300px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;    
+};
+
+/* TASCA 2 -----------------------------------------------------------------------------------------*/ 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#titleTasca2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color:red;
+    border-radius: 2px; 
+}
+
+.buttonCrear
+{
+    display: flex;
+    margin-top: 10px;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 110px;
+    border-style:solid;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 8px;
+    color:black;
+    background-color: aqua;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navTasca2
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 300px;
+    margin-top:15px;
+    margin-bottom: 30px;
+}
+
+
+.ulTasca2
+{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.li
+{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+
+
+/* TASCA 3 -----------------------------------------------------------------------------------------*/
+
+#titleTasca3
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color:green;
+    border-radius: 2px; 
+}
+
+.targetaTasca3
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-radius: 10px;
+    height: 280px;
+    width: 420px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.nomCognomClass
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.edatClass
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+.aficionsTitol
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aficionsUl
+{
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    justify-content: space-evenly;
+    color: white;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 500;
+}
+
+.aficionsLi
+{
+    display: flex;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #ff8c00;
+    color: white;
+    height: 40px;
+    width: 120px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+/* TASCA 4 -----------------------------------------------------------------------------------------*/
+
+#titleTasca4
+{
+    display: flex;
+    justify-content: center;
+    color:rebeccapurple;
+    border-radius: 2px; 
+    margin-top: 30px;
+}
+
+#buttonTargetes
+{
+    display: flex;
+    margin-top: 5px;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 170px;
+    border-style:solid;
+    border-color:fuchsia;
+    border-width: 5px;
+    border-radius: 8px;
+    color:black;
+    background-color:chartreuse;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#divTasca4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    width: 1000px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    row-gap: 10px;
+}
+
+.tasca4Card
+{
+    display: flex;
+    border-style: solid;
+    border-radius: 20px;
+    border-color:darkblue;
+    background-color:aqua;
+    column-gap:20px;
+    margin-bottom:15px;
+    height: 350px;
+    width: 620px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+}
+
+.divPiImatge
+{
+    display: flex;
+    flex-direction: row;
+    height: 290px ;
+    width: 500px;
+    column-gap: 20px;
+    justify-items: center;
+    justify-self: center ;
+    align-items: center;
+}
+
+.divElementsP
+{
+    display: flex;
+    flex-direction: column;
+    /* border-style: solid; */
+    height: 240px;
+    width: 400px;
+    row-gap: 20px;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.imatge
+{
+    height: 240px;
+    width: 210px;
+    border-color: red;
+
+}
+
+
+.nomFilosof
+{
+    margin-top: 10px;
+
+}
+
+
+
+
+
